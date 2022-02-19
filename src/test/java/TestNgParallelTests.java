@@ -8,40 +8,49 @@ import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
-public class TestNGDemo {
+public class TestNgParallelTests {
 
-    public static WebDriver driver;
+    private WebDriver driver;
+
 
     @BeforeMethod
-    void setUpMethod() {
+    void setUp(){
         WebDriverManager.chromedriver().setup();
         driver = new ChromeDriver();
         driver.manage().window().maximize();
-        driver.get("http://google.com");
     }
 
     @AfterMethod
-    void tearDownMethod(){
+    void cleanUp(){
         driver.quit();
     }
 
 
-    @Test(dataProvider = "calc-data" , dataProviderClass = TestData.class)
-    void calcTest(String input,String expected){
+    @Test
+    void calcTest(){
+        driver.get("http://google.com");
+
         WebElement element = driver.findElement(By.xpath("//body/div[1]/div[3]/form[1]/div[1]/div[1]/div[1]/div[1]/div[2]/input[1]"));
-        element.sendKeys(input);
+        element.sendKeys("sqrt 16");
         element.submit();
 
         WebElement result = driver.findElement(By.cssSelector("#cwos"));
-        Assert.assertEquals(result.getText(), expected);
+        Assert.assertEquals(result.getText(),"4");
+
     }
 
+    void searchTest(){
+        driver.get("http://google.com");
+
+        WebElement element = driver.findElement(By.xpath("//body/div[1]/div[3]/form[1]/div[1]/div[1]/div[1]/div[1]/div[2]/input[1]"));
+        element.sendKeys("Selenium WebDriver");
+        element.submit();
+
+        WebElement result = driver.findElement(By.cssSelector("#cwos"));
+        Assert.assertTrue(result.getText().startsWith("Selenium WebDriver"));
+    }
 
 
 
 
 }
-
-
-
-

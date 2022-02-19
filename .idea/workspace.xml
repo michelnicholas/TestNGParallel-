@@ -4,7 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="307f0ecb-4743-4648-9219-4a1b9da066ab" name="Changes" comment="" />
+    <list default="true" id="307f0ecb-4743-4648-9219-4a1b9da066ab" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/test/java/TestData.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/TestNgParallelTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/TestNGDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TestNGDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/TestNGDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/TestNGDemo.class" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -17,7 +22,11 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="25DL5hwifnb7p93kqDOMX7TIpEU" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -27,6 +36,17 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
   </component>
   <component name="RunManager" selected="TestNG.TestNGDemo">
+    <configuration name="TestNGDemo (1)" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="TestNGParrellel" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="TestNGDemo" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="TestNGDemo" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="TestNGParrellel" />
       <option name="PACKAGE_NAME" value="" />
@@ -65,6 +85,7 @@
     <recent_temporary>
       <list>
         <item itemvalue="TestNG.TestNGDemo" />
+        <item itemvalue="TestNG.TestNGDemo (1)" />
         <item itemvalue="TestNG.TestNGDemo.calcTest2" />
         <item itemvalue="TestNG.TestNGDemo.calcTest" />
       </list>
@@ -80,5 +101,17 @@
       <updated>1645056531613</updated>
     </task>
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
 </project>
