@@ -5,10 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="307f0ecb-4743-4648-9219-4a1b9da066ab" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/TestData.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/TestNgParallelTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/TestNGDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TestNGDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/TestNGDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/TestNGDemo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/TestNgParallelTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TestNgParallelTests.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,12 +33,11 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
   </component>
-  <component name="RunManager" selected="TestNG.TestNGDemo">
-    <configuration name="TestNGDemo (1)" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.C:/Users/Miche/IdeaProjects/TestNGParrellel/testng.xml">
+    <configuration name="C:/Users/Miche/IdeaProjects/TestNGParrellel/testng.xml" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="TestNGParrellel" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="TestNGDemo" />
-      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/testng.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
       <properties />
       <listeners />
       <method v="2">
@@ -58,11 +55,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestNGDemo.calcTest" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="TestNgParallelTests" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="TestNGParrellel" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="TestNGDemo" />
-      <option name="METHOD_NAME" value="calcTest" />
+      <option name="MAIN_CLASS_NAME" value="TestNgParallelTests" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestNgParallelTests.searchTest (1)" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="TestNGParrellel" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="TestNgParallelTests" />
+      <option name="METHOD_NAME" value="searchTest" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -70,11 +78,11 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestNGDemo.calcTest2" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="TestNgParallelTests.searchTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="TestNGParrellel" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="TestNGDemo" />
-      <option name="METHOD_NAME" value="calcTest2" />
+      <option name="MAIN_CLASS_NAME" value="TestNgParallelTests" />
+      <option name="METHOD_NAME" value="searchTest" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -84,10 +92,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.C:/Users/Miche/IdeaProjects/TestNGParrellel/testng.xml" />
+        <item itemvalue="TestNG.TestNgParallelTests.searchTest" />
+        <item itemvalue="TestNG.TestNgParallelTests.searchTest (1)" />
+        <item itemvalue="TestNG.TestNgParallelTests" />
         <item itemvalue="TestNG.TestNGDemo" />
-        <item itemvalue="TestNG.TestNGDemo (1)" />
-        <item itemvalue="TestNG.TestNGDemo.calcTest2" />
-        <item itemvalue="TestNG.TestNGDemo.calcTest" />
       </list>
     </recent_temporary>
   </component>

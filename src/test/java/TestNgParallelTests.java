@@ -39,6 +39,7 @@ public class TestNgParallelTests {
 
     }
 
+    @Test
     void searchTest(){
         driver.get("http://google.com");
 
@@ -46,8 +47,8 @@ public class TestNgParallelTests {
         element.sendKeys("Selenium WebDriver");
         element.submit();
 
-        WebElement result = driver.findElement(By.cssSelector("#cwos"));
-        Assert.assertTrue(result.getText().startsWith("Selenium WebDriver"));
+        WebElement result = driver.findElement(By.xpath("/html[1]/body[1]/div[4]/div[2]/form[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[2]/input[1]"));
+        Assert.assertTrue(driver.getTitle().startsWith("Selenium WebDriver"));
     }
 
 

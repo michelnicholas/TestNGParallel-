@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Smoke Suite" parallel="tests" thread-count="5">
+    <test name="Test 1">
+
+        <classes>
+        <class name="TestNgParallelTests">
+        <methods>
+            <include name="calcTest"></include>
+        </methods>
+        </class>
+
+        </classes>
+
+    </test>
+    <test name="Test 2">
+
+        <classes>
+            <class name="TestNgParallelTests">
+                <methods>
+                    <include name="searchTest"></include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+
+    <test name="Test 3">
+        <classes>
+            <class name="TestNGDemo"></class>
+        </classes>
+    </test>
+
+</suite>
